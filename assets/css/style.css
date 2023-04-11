@@ -51,7 +51,7 @@
 }
 
 html {
-  font-size: 13.33px;
+  font-size: 10px;
 }
 
 body {
@@ -85,7 +85,7 @@ h6 {
 
 @media only screen and (min-width: 0px) and (max-width: 430px) {
   h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: "Monserrat_Black", sans-serif;
     line-height: 1em;
     display: inline-block;
@@ -95,7 +95,7 @@ h6 {
 
 @media only screen and (min-width: 430px) and (max-width: 768px) {
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: "Monserrat_Black", sans-serif;
     line-height: 1em;
   }
@@ -103,7 +103,7 @@ h6 {
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 5.5rem;
     font-family: "Monserrat_Black", sans-serif;
     line-height: 1em;
     display: inline-block;
@@ -351,7 +351,7 @@ h2 {
   align-items: center;
   justify-content: space-between;
   padding: 0 3px;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--dark);
   white-space: nowrap;
@@ -631,7 +631,13 @@ h2 {
 }
 
 #hero p {
-  padding: 0.8em;
+  /* padding: 0.8em; */
+  margin-top:4.3rem;
+  margin-bottom: 4.3rem;
+  font-size:1.5em;
+  display:block;
+  text-align: left;
+  max-width: max-content;
 }
 
 #hero .d-flex {
@@ -643,7 +649,7 @@ h2 {
   font-family: "Monserrat_sBold", sans-serif;
   /* text-transform: uppercase; */
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1.5rem;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 28px;
@@ -663,11 +669,11 @@ h2 {
   font-family: "Monserrat_sBold", sans-serif;
   /* text-transform: uppercase; */
   font-weight: 500;
-  font-size: 14px;
+  font-size: 1.5em;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 28px;
-  border-radius: 4px;
+  margin-left:4.3rem;
   transition: 0.5s;
   color: var(--darker);
   /* background: #385bd6; */
