@@ -96,7 +96,7 @@
       }
 
 
-      if ((headerOffset - window.scrollY)   <=-500){  //change absolute value for a relative value 
+      if ((headerOffset - window.scrollY)   <=-100){  //change absolute value for a relative value 
      
         selectHeader.classList.add('scrolled-background')
       }   else{
@@ -323,7 +323,12 @@ let getlist = selectList.querySelectorAll("h1");
        heroSel.classList.add('hero-background');
   });
 
+// Lazy load about 2 background
 
+window.addEventListener('load',()=>{
+  var aboutSel = select('#about2');
+  aboutSel.classList.add('about2-background');
+});
 
 on('click','#services .list-group-item',function(e){
   

@@ -1028,17 +1028,18 @@ section {
 
 #about2 {
   height: 100vh;
-  font-size: 16px;
+  font-size: 3.0rem;
   font-family: "Monserrat_sBold", sans-serif;
   color: var(--darker);
-
+  background: url("../img/about2-background.svg");
+  background-size: cover;
   /* background-position: bottom; */
   background-color: var(--mediuml);
   background-size: 100%;
 }
 
-.about2-background {
-  background: url("../img/about2-background.svg");
+.about2-background{
+  /* background: url("../img/about2-background.png"); */
   background-repeat: no-repeat;
 }
 
@@ -1836,19 +1837,16 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact {
-  background-color: var(--light);
-}
-
-.contact .info-box {
+  background-color: var(--darker);
   color: var(--light);
-  text-align: center;
+  text-align: left;
   /* box-shadow: 0 0 30px rgba(214, 215, 216, 0.3); */
   padding: 20px 0 30px 0;
 }
 
 .contact .info-box i {
   font-size: 32px;
-  color: #385bd6;
+  color: var(--mediumd);
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #b3d1fa;
@@ -1869,8 +1867,8 @@ section {
 }
 
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
-  padding: 30px;
+  /* box-shadow: 0 0 30px rgba(214, 215, 216, 0.4); */
+  padding: 20px;
 }
 
 .contact .php-email-form .error-message {
@@ -1897,7 +1895,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #edeef4;
+  background: var(--light);
   text-align: center;
   padding: 15px;
 }
@@ -1915,24 +1913,25 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form .form-group {
-  margin-bottom: 20px;
+.contact .php-email-form .form-control  {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #385bd6;
+  border-color: var(--mediumd);
 }
 
 .contact .php-email-form input {
-  padding: 10px 15px;
+  padding: 8px 12px;
 }
 
 .contact .php-email-form textarea {
@@ -1940,10 +1939,10 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #385bd6;
+  background: var(--mediumd);
   border: 0;
   padding: 10px 30px;
-  color: #edeef4;
+  color: var(--light);
   transition: 0.4s;
   border-radius: 4px;
 }
