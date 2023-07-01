@@ -830,6 +830,7 @@ section {
 .featured-services {
   background: var(--mediuml);
   /* height: 120vh; */
+
 }
 
 
@@ -845,6 +846,7 @@ section {
   transition: all 0.3s ease-in-out;
   /* border-radius: 28px; */
   z-index: 1;
+  width: 100%;
 }
 
 .featured-services .icon-box::before {
@@ -892,6 +894,11 @@ section {
   line-height: 28px;
   margin-bottom: 0;
   color: var(--mediuml);
+ 
+}
+
+.featured-services .card{
+ 
 }
 
 .featured-services .icon-box:hover .title a,
@@ -1027,12 +1034,13 @@ section {
 }
 
 #about2 {
-  height:fit-content;
+  height:40vh;
   font-size: 3.0rem;
   font-family: "Monserrat_sBold", sans-serif;
+  justify-content: center;
   color: var(--darker);
-  background: url("../img/about2-background.svg");
-  margin-top: 3em;
+  /* background-image: url("../img/about2-background.png"); */
+  /* margin-top: 3em; */
   background-size: cover;
   /* background-position: bottom; */
   background-color: var(--mediuml);
@@ -1040,7 +1048,7 @@ section {
 }
 
 .about2-background{
-  /* background: url("../img/about2-background.png"); */
+  background: url("../img/about2-background.png");
   background-repeat: no-repeat;
 }
 
@@ -1055,6 +1063,9 @@ section {
 
 #aboutcontainer {
   /* position:relative; */
+  position: relative;
+  margin-top: 24%;
+  margin-left: 25%;
 }
 
 /* #aboutcontainer p {
