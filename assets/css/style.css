@@ -101,6 +101,7 @@ h6 {
   }
   .section-title {
     padding-top:8.2rem;
+    padding-bottom:2rem;
   }
 }
 
@@ -113,6 +114,7 @@ h6 {
   }
   .section-title {
     padding-top:12.2rem;
+    padding-bottom:4.2rem;
   }
 }
 
@@ -126,6 +128,7 @@ h6 {
   }
   .section-title {
     padding-top:15.2rem;
+    padding-bottom:4.2rem;
   }
 }
 
@@ -139,6 +142,7 @@ h6 {
   }
   .section-title {
     padding-top:17.2rem;
+    padding-bottom:4.2rem;
   }
 }
 
@@ -486,15 +490,36 @@ p{
   left: 15px;
   padding: 10px 0;
   background-color: var(--mediuml);
+  border-bottom: 1px solid var(--dark) ;
   overflow-y: auto;
   transition: 0.3s;
 }
 
-.navbar-mobile a,
+.navbar-mobile ul> li{
+ 
+  margin-left:55px;
+  margin-right:55px;
+  border-bottom: 1px solid var(--dark) ;
+  border-top: 1px solid var(--dark) ;
+}
+
+.navbar-mobile a {
+  justify-content: left;
+  color: var(--dark);
+  /* padding: 20px 20px; */
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-left:20px;
+  font-size: 40px;
+ 
+}
+
+
 .navbar-mobile a:focus {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: var(--light);
+  padding-top:50px;
+  padding-left:60px;
+  font-size: 40px;
+  color: var(--mediumd);
 }
 
 .navbar-mobile>ul>li {
@@ -532,6 +557,7 @@ p{
 
 .navbar-mobile .dropdown ul li {
   min-width: 200px;
+
 }
 
 .navbar-mobile .dropdown ul a {
