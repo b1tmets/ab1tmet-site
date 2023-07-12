@@ -997,20 +997,22 @@ section {
 /* Seccion Utilizamos */
 
 
-#utilizamos {
-  padding-top: 2em;
+.utilizamos {
+  /* padding-top: 2em; */
   padding-bottom: 2em;
   font-family: "Monserrat", sans-serif;
   justify-content: center;
   text-align: center;
   color: var(--mediuml);
-  background-color: var(--darker);
+
 }
 
-#utilizamos p {
+.utilizamos .banner {
+  margin-left:0;
   color: var(--mediumd);
   font-size: 120%;
   font-family: "Monserrat_Bold", sans-serif;
+  background-color: var(--darker);
 }
 
 /* 
